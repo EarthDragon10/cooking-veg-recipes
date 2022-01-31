@@ -8,7 +8,6 @@ const InputSearch = () => {
       <div className="search-group shadow">
         <input
           type="search"
-          class="form__field"
           placeholder="Search"
           name="recipe"
           id="recipe"

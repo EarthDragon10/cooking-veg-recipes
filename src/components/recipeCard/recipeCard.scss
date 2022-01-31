@@ -1,0 +1,28 @@
+@import "../../variables/variables.scss";
+
+.box-card {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(auto, auto);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  justify-content: space-around;
+
+  .card-component {
+    background-color: #2b303b;
+    color: $background-color;
+    border-radius: 5px;
+  }
+
+  .card-component h4 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .card-component img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+}
