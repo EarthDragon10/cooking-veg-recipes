@@ -1,10 +1,10 @@
 import react from "react";
-import Footer from "./footer/Footer";
+import InputSearch from "./inputSearch";
 
 function App() {
   return (
-    <div>
-      <h1>Ciao</h1>
+    <div className="container">
+      <InputSearch />
     </div>
   );
 }
